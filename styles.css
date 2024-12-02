@@ -1,0 +1,72 @@
+/* Reset básico */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fdf5e6; /* Fondo crema */
+    color: #3e2723; /* Color marrón */
+}
+
+/* Encabezado */
+header {
+    background-color: #6d4c41; /* Marrón oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Secciones */
+main {
+    padding: 1em;
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.coffee-tips {
+    margin-top: 2em;
+}
+
+.coffee-tips h2 {
+    font-size: 1.8em;
+    color: #5d4037;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
+button {
+    background-color: #d7ccc8; /* Marrón claro */
+    color: #3e2723;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a1887f;
+}
+
+footer {
+    background-color: #6d4c41;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
