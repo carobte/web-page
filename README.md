@@ -1,2 +1,2 @@
-# web-page
+# web page
 Practice repository
